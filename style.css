@@ -1,0 +1,23 @@
+.triangle {
+    width: 100px;
+    height: 100px;
+    margin: 40px auto 0;
+    border: 100px solid transparent;
+    border-bottom-color: seagreen;
+    box-sizing: border-box;
+    border-radius: 50%;
+    animation-name: mymove;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mymove {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
